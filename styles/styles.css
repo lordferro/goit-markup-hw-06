@@ -458,6 +458,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.license-condition {
+  color: var(--accent-color);
+}
+
 .form-field + .form-field {
   margin-top: 10px;
 }
@@ -691,7 +695,7 @@ body {
 }
 
 .join {
-  margin: 0 93px 0 70px;
+  margin: 0 0 0 70px;
 }
 
 .join-title,
@@ -734,6 +738,10 @@ body {
   fill: var(--white-color);
 }
 
+.subscribe {
+  margin-left: auto;
+}
+
 .subscribe-label {
   display: block;
 }
@@ -746,6 +754,7 @@ body {
 .subscribe-email {
   display: block;
   margin-right: 12px;
+  padding-left: 16px;
 
   width: 358px;
   height: 50px;
@@ -754,6 +763,12 @@ body {
   border-radius: 4px;
 
   background-color: transparent;
+
+  font-size: 16px;
+  line-height: 1.25;  
+  letter-spacing: 0.03em;  
+  color: rgba(255, 255, 255, 0.6);  
+
 }
 
 .submit-button {
@@ -781,7 +796,7 @@ body {
 
 .subscribe-icon {
   position: absolute;
-  right: 28px;
+  margin-left: 10px;
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;

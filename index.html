@@ -126,7 +126,9 @@
                   />
                   <label for="license" class="license-label"
                     >Погоджуюся з розсилкою та приймаю&nbsp;<span
-                      ><a href="">Умови договору</a></span
+                      ><a class="license-condition" href=""
+                        >Умови договору</a
+                      ></span
                     >
                     <svg width="16" height="15" class="license-icon">
                       <use href="./img/icons.svg#icon-checkbox"></use>
@@ -518,15 +520,17 @@
                 type="email"
                 name="email"
                 class="subscribe-email"
+                placeholder="E-mail"
               />
-              <input
+              <button
                 type="submit"
-                value="Підписатися"
                 class="subscribe-button button submit-button"
-              />
-              <svg class="subscribe-icon" width="24" height="24">
-                <use href="./img/icons.svg#icon-send"></use>
-              </svg>
+              >
+                Підписатися
+                <svg class="subscribe-icon" width="24" height="24">
+                  <use href="./img/icons.svg#icon-send"></use>
+                </svg>
+              </button>
             </div>
           </form>
         </div>
