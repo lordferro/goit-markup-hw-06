@@ -31,9 +31,8 @@ img {
 body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
-
-  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
 }
 
 .section {
@@ -309,7 +308,6 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  letter-spacing: 0.03em;
 
   color: var(--black-color);
 
@@ -455,7 +453,6 @@ body {
 
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .license-condition {
@@ -534,7 +531,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   background-color: rgba(47, 48, 58, 0.8);
@@ -703,7 +699,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-color);
 
@@ -765,8 +760,7 @@ body {
   background-color: transparent;
 
   font-size: 16px;
-  line-height: 1.25;  
-  letter-spacing: 0.03em;  
+  line-height: 1.25;   
   color: rgba(255, 255, 255, 0.6);  
 
 }
@@ -811,7 +805,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   text-decoration: none;
   border: none;
   border-radius: 4px;
@@ -896,7 +889,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 }
 .element-thumb {
   position: relative;
@@ -911,8 +903,6 @@ body {
   line-height: 1.55;
 
   padding: 63px 24px;
-
-  letter-spacing: 0.03em;
 
   color: var(--white-color);
   background-color: rgba(33, 150, 243, 0.9);
